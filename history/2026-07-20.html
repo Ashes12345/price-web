@@ -3,8 +3,10 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>供应商实时价格总表</title>
     <style>
+        html{font-size:14px;}
         *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft YaHei",sans-serif;}
         body{background:#f5f7fa;padding:30px;}
         .container{max-width:1200px;margin:0 auto;background:#fff;padding:25px;border-radius:10px;box-shadow:0 2px 12px #e2e8f0;}
@@ -15,12 +17,19 @@
         th{background:#4299e1;color:#fff;font-weight:normal;}
         tr:nth-child(even){background:#f7fafc;}
         tr:hover{background:#ebf8ff;transition:0.2s;}
+        /* 移动端适配 */
+        @media screen and (max-width:768px){
+            body{padding:10px;}
+            .container{padding:10px;}
+            th,td{padding:6px 2px;font-size:12px;}
+            h1{font-size:18px;}
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>供应商实时价格总表</h1>
-        <div class="update-tip">数据最后更新时间：2026-07-20 16:43:03</div>
+        <div class="update-tip">数据最后更新时间：2026-07-20 17:25:01</div>
         <table>
             <thead>
                 <tr>
