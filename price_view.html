@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 禁止浏览器、CDN缓存，彻底解决页面更新延迟 -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -20,6 +21,7 @@
         th{background:#4299e1;color:#fff;font-weight:normal;}
         tr:nth-child(even){background:#f7fafc;}
         tr:hover{background:#ebf8ff;transition:0.2s;}
+        /* 移动端适配 */
         @media screen and (max-width:768px){
             body{padding:10px;}
             .container{padding:10px;}
@@ -31,7 +33,7 @@
 <body>
     <div class="container">
         <h1>供应商实时价格总表</h1>
-        <div class="update-tip">数据最后更新时间：2026-07-21 14:51:04</div>
+        <div class="update-tip">数据最后更新时间：2026-07-21 14:57:18</div>
         <table>
             <thead>
                 <tr>
